@@ -1,12 +1,11 @@
-﻿using Item30.Models;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using Item30.Models;
 
 namespace Item30.DAL
 {
     public class SchoolContext : DbContext
     {
-
         public SchoolContext() : base("SchoolContext")
         {
         }

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
 using Item30.Models;
 
 namespace Item30.DAL
@@ -53,7 +50,7 @@ namespace Item30.DAL
             new Enrollment{StudentID=4,CourseID=0006},
             new Enrollment{StudentID=5,CourseID=0003},
             new Enrollment{StudentID=6,CourseID=0008},
-            new Enrollment{StudentID=7,CourseID=0010},
+            new Enrollment{StudentID=7,CourseID=0010}
             };
             enrollments.ForEach(s => context.Enrollments.Add(s));
             context.SaveChanges();
