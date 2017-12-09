@@ -15,15 +15,24 @@ namespace Item30.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            
+            return View();
+        }
 
+        public ActionResult Student()
+        {
+            return View();
+        }
+        public ActionResult Courses()
+        {
+            
             return View();
         }
     }
