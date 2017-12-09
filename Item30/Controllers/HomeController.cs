@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Item30.Models;
 using System.Web.Mvc;
 
 namespace Item30.Controllers
@@ -28,11 +29,12 @@ namespace Item30.Controllers
 
         public ActionResult Student()
         {
+            ViewBag.Message = "";
             return View();
         }
         public ActionResult Courses()
         {
-            
+            ViewBag.Message = "";
             return View();
         }
     }
